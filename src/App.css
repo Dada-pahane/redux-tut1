@@ -1,10 +1,43 @@
 .App {
   text-align: center;
 }
-
+.Add-to-Card img {
+  width:150px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+.card-wrapper{
+  width: 500px;
+    border: 1px solid #ccc;
+    height: 100px;
+}
+.text-wrapper 
+{
+  margin-top: 20px;
+}
+.item
+{
+float: left;
+padding: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.Button-wrapper  button
+{
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 20px;
+  box-shadow: #333 2px 1px 9px
+}
+.img-wrapper  img{
+  width: 100px;
+  margin-top: -20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +69,5 @@
     transform: rotate(360deg);
   }
 }
+
+
